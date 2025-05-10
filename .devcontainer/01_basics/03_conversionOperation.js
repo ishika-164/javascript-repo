@@ -24,5 +24,51 @@ let booleaniLoggedIn=Boolean(isLoggedIn)
 let number=33
 
 let stringNumber=String(number)
-console.log(stringNumber);
-console.log(typeof(stringNumber));
+// console.log(stringNumber);
+// console.log(typeof(stringNumber));
+
+// **************************             Operations          *************************************
+
+let val=33
+let negnumber=-val
+console.log(negnumber);
+
+// console.log( 2+2 );
+// console.log( 2-2 );
+// console.log( 2*2 );
+// console.log( 2**3 ); //poer 
+// console.log( 2/2);
+// console.log( 2%2 );
+
+let str1="Hello"
+let str2=" Ishika"
+let str3=str1 +str2
+console.log(str3);
+
+//difficulty : to add one string and other number
+console.log("1" +2+2);  //first string is there so treat others coming as string too
+console.log(1+2+"2");   //string is last so do operation 1+2 first considering them as numbers
+//or can use () to define that operation is to be performed
+
+console.log(+true); // ->1
+//console.log(true+);  //error
+
+console.log(+""); // ->0 as empty string is considered as 0 in number
+
+
+let gameCounter=100
+gameCounter++  //Postfix
+++gameCounter   //Prefix
+console.log(gameCounter);
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,7 +3,7 @@ let repocount=2
 
 //console.log(name+repocount+" Value"); // not a good ting to represent
 
-console.log(`My name is ${name} and my repo count is ${repocount}`); //good 
+console.log(`My name is ${name} and my repo count is ${repocount}`); //good // `` -->this is called backtext
 
 const gamename=new String('Ishikaaaa')
 //console.log(gamename[1]);

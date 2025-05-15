@@ -73,3 +73,31 @@ console.log(`Have property named isLoggedIn?  : ${tinderuser.hasOwnProperty("isL
 
 // to get more methods of object go to console
 
+//de-structure the object
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor  kr skte hai aisa par agr baar baar krna ho to 
+
+const {courseInstructor: instructor} = course   // { } denotes de structure
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }    this is JSON(javascript object notation) object is not given any name  
+
+// API can also be given in an array form that conatins objects
+[
+    {},
+    {},
+    {}
+]
+// API  matlab jab aapko kaam nai krna hai to kisi aur par daal do vo hai API 
+//EX : on google one person login ,he doesn't have to worry about the verification of the person and all other thinge that API is gonna do

@@ -7,7 +7,7 @@ function sayMyName(){
     console.log("H");
 }
 
-// sayMyName()
+// sayMyName()   // here sayMyName is reference to the function but sayMyName() is execution of the function  
 
 // function addTwoNumbers(number1, number2){
 

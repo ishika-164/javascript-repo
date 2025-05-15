@@ -6,7 +6,8 @@
 (function chai(){
     // named IIFE
     console.log(`DB CONNECTED`);
-})();
+})();    // here if ; not used then gives error as it will not execute the next IIFE (it will not know when to stop execution)
+
 
 //Simple IIFE (arrow function)
 ( (name) => {

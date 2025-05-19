@@ -41,3 +41,5 @@ const myObject = {
 //     console.log(key, ':-', value);
     
 // }
+
+// The for...of loop iterates over iterable objects, such as arrays, strings, maps, sets, etc. It directly accesses the values of the iterable.

@@ -21,7 +21,9 @@
     }
     addLanguage("python")
     addLanguage("typescript")
-
+    
+    // by innerHTML it traverses the whole tree to go to the bottom ,So for large scale projects it is recommended to use appendChild intead
+ 
     function addOptiLanguage(langName){
         const li = document.createElement('li');
         li.appendChild(document.createTextNode(langName))

@@ -47,3 +47,7 @@ h1 {
   padding-top: 25px;
   
 }
+.animated-button:hover {
+      transform: scale(1.1);
+      background-color: grey;
+    }

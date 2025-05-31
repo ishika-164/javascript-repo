@@ -19,7 +19,7 @@ const user = {
 
 
 function User(username, loginCount, isLoggedIn){
-    this.username = username;
+    this.username = username;     // this.username is variable and username is the value that one is getting from function 
     this.loginCount = loginCount;
     this.isLoggedIn = isLoggedIn
 
@@ -33,7 +33,7 @@ function User(username, loginCount, isLoggedIn){
 
 const userOne = new User("hitesh", 12, true)
 const userTwo = new User("ChaiAurCode", 11, false)  // new is a constructor and it initiaize new context /new instance
-console.log(userOne.constructor);   // output: [Function : User]
+console.log(userOne.constructor);   // output: [Function : User]  reference hota hai khudi ke baare mai
 // agar abhi console.log(userOne) iska output chaiaurcode  vala hota as userto ne overrite kr diya hai
 //console.log(userTwo);
 

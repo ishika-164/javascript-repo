@@ -1,3 +1,5 @@
+// Promises are objects
+
 const promiseOne = new Promise(function(resolve, reject){
     //Do an async task
     // DB calls, cryptography, network
@@ -93,7 +95,7 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 .then((response) => {
     return response.json()
 })
-.then((data) => {
+.then((data) => {   // upar se jo return hokar aa rha hai usko le kaha par to uske liye ye ek aur then lagaya hai
     console.log(data);
 })
 .catch((error) => console.log(error))

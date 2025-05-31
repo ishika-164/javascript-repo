@@ -1,6 +1,16 @@
 //shallow copy: makes changes in the original array
 //deep copy: does not make changes in the original array (deep copy of an object is the copy that does not share same references as those of the source object)
 
+
+// There are two types of arrays: holey arrays and continuous arrays. These arrays can contain three types of elements: SMI (Small Integer), Packed Element, and Double.
+
+// 1. **Holey Array**: A holey array is an array that contains missing or empty elements. For example, [1, 2, , 4] is a holey array because it has a missing element. Holey arrays are less optimized for performance.
+
+// 2. **Continuous Array**: A continuous array is an array that does not contain missing or empty elements. For example, [1, 2, 3, 4] is a continuous array because it has no missing elements. Continuous arrays are more optimized for performance.
+
+// In terms of optimization, continuous arrays are more efficient and optimized for various operations compared to holey arrays
+
+
 //ways of decalaring array:
 const myarr=[1,2,3,4,5]
 const arr2=new Array(1,2,3,4,5)

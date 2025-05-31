@@ -20,7 +20,7 @@ console.log(Object.getOwnPropertyDescriptor(chai, "name"));
 
 Object.defineProperty(chai, 'name', {
     //writable: false,
-    enumerable: true,
+    enumerable: true,    // isse agar false krde to object ki us property par iterate nai kr payenge 
     
 })
 
